@@ -33,14 +33,3 @@ Benchmark.ips do |r|
     { id: 1, name: 'John', created_at: Time.current }
   end
 end
-
-
-# Ruby version:
-# ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux]
-# 
-# Gems:
-# * activemodel (7.0.0)
-# * benchmark-ips (2.9.2)
-# 
-# $ cat /proc/cpuinfo |grep 'model name' | head -1
-# model name      : AMD Ryzen 7 PRO 4750G with Radeon Graphics
